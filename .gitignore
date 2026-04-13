@@ -1,6 +1,17 @@
 __pycache__/
 .pytest_cache/
 *.pyc
+*.pyo
+*.pyd
 .venv/
+venv/
+env/
+.vscode/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+output/
 data/output/*
 !data/output/.gitkeep
