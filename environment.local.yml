@@ -1,0 +1,16 @@
+name: license-plate-ocr
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - ipykernel
+  - matplotlib
+  - numpy
+  - pillow
+  - pytest
+  - pip
+  - pip:
+      - opencv-python
+      - pytesseract
+      - imutils
